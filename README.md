@@ -11,9 +11,8 @@ This project involves identifying bird species based on their vocalizations usin
 The project employs Convolutional Neural Networks (CNNs) for extracting features from spectrograms of bird calls. Performance is evaluated using accuracy, confusion matrices, and loss/accuracy plots. We also applied pruning and ensemble techniques to improve model performance, resulting in an overall successful classification of bird species. These models can be applied to bioacoustic research and wildlife monitoring systems.
 
 ## Project Structure:
-- **Bird_Species_Identification.ipynb**: This Jupyter notebook contains the complete code for data preprocessing, model development, training, and evaluation.
-- **Bird_Species_Identification_Report.pdf**: The final report detailing the analysis, methodologies, results, and conclusions.
-- **bird_calls_dataset.csv**: The dataset used for the analysis, containing audio features for 12 bird species.
+- **Neural-Networks-Bird-Sound-Classification.ipynb**: This Jupyter notebook contains the complete code for data preprocessing, model development, training, and evaluation.
+- **Neural-Networks-Bird-Sound-Classification-Report.pdf**: The final report detailing the analysis, methodologies, results, and conclusions.
 - **README.md**: This file, providing an overview and instructions for the project.
 
 ## Installation:
