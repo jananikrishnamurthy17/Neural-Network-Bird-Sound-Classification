@@ -33,18 +33,22 @@ Generating spectrograms from these clips to use as input features for the neural
 2. Model Development:
 
 **Binary Classification Model**: Predicts whether a bird call is from an American Crow or Blue Jay.
+
 **Multi-Class Classification Model**: Classifies calls into one of the 12 bird species.
 
 3. Model Evaluation:
    Convolutional Neural Networks (CNNs) were used to extract features from the spectrograms. Various model architectures and configurations were tested, including ensemble methods like bagging and boosting.
 
 **Metrics Used**: Accuracy, Confusion Matrix, and Loss/Accuracy Plots.
+
 **Ensemble Techniques**: Pruning and cross-validation were applied to enhance model performance.
 
 ## Results:
 
 **Binary Classification**: Achieved an accuracy of 96% after training the model.
+
 **Multi-Class Classification**: Achieved an accuracy of 72.38% on the test set.
+
 **External Data Testing**: The model was tested with external audio clips, where all three samples were predicted to be Dark-eyed Junco calls, demonstrating some limitations of the model with unseen data.
 
 ## Conclusion:
